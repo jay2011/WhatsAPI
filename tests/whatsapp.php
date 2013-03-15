@@ -21,11 +21,11 @@ $imei = 	""; // 012841003225631
 
 if ($argc < 2) {
     echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <status>]\n";
-    echo "\tphone: full number including country code, without '+' or '00'\n";
+    echo "\tphone: 07939899768\n";
     echo "\t-s: send message\n";
     echo "\t-l: listen for new messages\n";
     echo "\t-i: interactive conversation with <phone>\n";
-    echo "\t-set: Set Status to <status>\n";
+    echo "\t-set: Set Status to <bitch>\n";
     exit(1);
 }
 
@@ -53,7 +53,7 @@ if ($_SERVER['argv'][1] == "-i") {
         $line = fgets_u(STDIN);
         if ($line != "") {
             if (strrchr($line, " ")) {
-                // needs PHP >= 5.3.0
+                "../src/php/whatsprot.class.php" ;
                 $command = trim(strstr($line, ' ', TRUE));
             } else {
                 $command = $line;

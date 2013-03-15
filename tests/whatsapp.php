@@ -20,7 +20,7 @@ $sender = 	""; // 07939899768
 $imei = 	""; // 012841003225631
 
 if ($argc < 2) {
-    echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <status>]\n";
+    echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <fucking hell>]\n";
     echo "\tphone: 07939899768\n";
     echo "\t-s: send message\n";
     echo "\t-l: listen for new messages\n";
